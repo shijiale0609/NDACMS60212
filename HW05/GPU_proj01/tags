@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	pointer_2d_matrix.h	16;"	d
+FILTER_SIZE	pointer_2d_matrix.h	14;"	d
+Mat	pointer_2d_matrix.h	17;"	d
+Matrix	pointer_2d_matrix.cpp	/^Matrix::Matrix(const Matrix& A2)$/;"	f	class:Matrix
+Matrix	pointer_2d_matrix.h	/^    Matrix()$/;"	f	class:Matrix
+Matrix	pointer_2d_matrix.h	/^    Matrix(int _rows, int _cols)$/;"	f	class:Matrix
+Matrix	pointer_2d_matrix.h	/^class Matrix{$/;"	c
+Mesh_Size	pointer_2d_matrix.h	13;"	d
+Vector	Vector.cpp	/^Vector::Vector(const Vector&  a)$/;"	f	class:Vector
+Vector	Vector.cpp	/^Vector::Vector(int s)$/;"	f	class:Vector
+Vector	Vector.h	/^   	Vector()       \/\/ constructor: acquire resources$/;"	f	class:Vector
+Vector	Vector.h	/^class Vector{$/;"	c
+_POINTER_2D_MATRIX_H	pointer_2d_matrix.h	2;"	d
+_READ_JPG_H	rw_jpg.h	2;"	d
+_VECTOR_H	Vector.h	2;"	d
+__WRAPPER__	cuda_wrapper.h	2;"	d
+bundle	rw_jpg.h	/^struct bundle{$/;"	s
+bundle	rw_jpg.h	/^typedef struct bundle bundle;$/;"	t	typeref:struct:bundle
+cols	pointer_2d_matrix.h	/^    int     rows, cols; $/;"	m	class:Matrix
+elem	Vector.h	/^    	double* elem; \/\/ elem points to an array of sz doubles$/;"	m	class:Vector
+function_using_matrix	pointer_2d_matrix.cpp	/^void function_using_matrix(Matrix& rhs)$/;"	f
+get_cols	pointer_2d_matrix.h	/^    unsigned get_cols() const$/;"	f	class:Matrix
+get_rows	pointer_2d_matrix.h	/^    unsigned get_rows() const$/;"	f	class:Matrix
+height	rw_jpg.h	/^        int width, height; \/* number of pixels in each direction*\/$/;"	m	struct:bundle
+image_data	rw_jpg.h	/^        unsigned char *image_data; \/*pixel RGB values stored in rgb value of pixel by $/;"	m	struct:bundle
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+mat_access	pointer_2d_matrix.cpp	/^double& mat_access(int i, int j,double  **a)$/;"	f
+num_channels	rw_jpg.h	/^        int num_channels;  \/*# of color components per pixel, default 3 *\/$/;"	m	struct:bundle
+off_set	pointer_2d_matrix.h	12;"	d
+operator ()	pointer_2d_matrix.h	/^    double& operator()(int i, int j)$/;"	f	class:Matrix
+operator *	Vector.h	/^        Vector operator*(const double a)$/;"	f	class:Vector
+operator *	Vector.h	/^        double operator*(const Vector& rhs)$/;"	f	class:Vector
+operator *	pointer_2d_matrix.cpp	/^Vector operator*(Matrix& A, Vector& v)$/;"	f
+operator +	Vector.cpp	/^Vector Vector::operator+(const Vector&  a)$/;"	f	class:Vector
+operator +	pointer_2d_matrix.cpp	/^Matrix&  Matrix:: operator+(const Matrix &rhs)$/;"	f	class:Matrix
+operator +=	pointer_2d_matrix.h	/^    Matrix& operator+=(const Matrix& rhs)$/;"	f	class:Matrix
+operator <<	Vector.h	/^        friend ostream& operator<<(std::ostream &output, const Vector& P ){$/;"	f	class:Vector
+operator <<	pointer_2d_matrix.h	/^    friend ostream& operator<<(std::ostream &output, Matrix &mat)$/;"	f	class:Matrix
+operator =	Vector.cpp	/^Vector& Vector::operator=(const Vector&  a)$/;"	f	class:Vector
+operator =	pointer_2d_matrix.cpp	/^Matrix& Matrix:: operator=(const Matrix &rhs)$/;"	f	class:Matrix
+operator []	Vector.cpp	/^double& Vector::operator[](int i)$/;"	f	class:Vector
+pptr	pointer_2d_matrix.h	/^    double  **pptr; $/;"	m	class:Matrix
+read_jpg	rw_jpg.cpp	/^int read_jpg(const char *filename, bundle *o_data) {$/;"	f
+resize	pointer_2d_matrix.cpp	/^void Matrix::resize(int rows2, int cols2)$/;"	f	class:Matrix
+rows	pointer_2d_matrix.h	/^    int     rows, cols; $/;"	m	class:Matrix
+size	Vector.cpp	/^int Vector::size() const$/;"	f	class:Vector
+sz	Vector.h	/^	int     sz;$/;"	m	class:Vector
+test_wrapper	main.cpp	/^void test_wrapper( Matrix& mat){$/;"	f
+width	rw_jpg.h	/^        int width, height; \/* number of pixels in each direction*\/$/;"	m	struct:bundle
+write_jpg	rw_jpg.cpp	/^int write_jpg(const char *filename, bundle *o_data) $/;"	f
+~Matrix	pointer_2d_matrix.h	/^    ~Matrix()$/;"	f	class:Matrix
+~Vector	Vector.h	/^	~Vector(){$/;"	f	class:Vector
